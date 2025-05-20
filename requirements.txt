@@ -1,0 +1,50 @@
+# Core Dependencies
+openai-whisper==20231117    # Latest stable version of Whisper
+torch>=2.0.0
+torchaudio>=2.0.0
+tensorflow>=2.12.0
+transformers>=4.30.0
+
+# Embedding and Search
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+faiss-gpu>=1.7.4        # for GPU support
+chromadb>=0.4.0
+
+# Text-to-Speech
+TTS>=0.14.0
+phonemizer>=3.0.1
+
+# Audio Processing
+soundfile>=0.12.1
+sounddevice>=0.4.5
+pyaudio>=0.2.13
+librosa>=0.10.0
+numpy>=1.24.0
+scipy>=1.10.0
+pydub>=0.25.1
+
+# LLM APIs
+openai>=1.0.0
+cohere>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.65.0
+pandas>=2.0.0
+pyyaml>=6.0.1
+
+# Development Tools (Optional)
+black>=23.3.0
+flake8>=6.0.0
+pytest>=7.4.0
+
+# API Framework (Optional)
+flask>=2.3.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Performance Optimization
+accelerate>=0.21.0
+bitsandbytes>=0.41.0

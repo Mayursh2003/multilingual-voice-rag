@@ -1,0 +1,174 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+pip-selfcheck.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.vs/
+
+# Project specific
+# Audio files
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
+*.aac
+
+# Model files and caches
+*.pth
+*.pt
+*.bin
+*.onnx
+.cache/
+cached_models/
+whisper_models/
+tts_models/
+transformers_cache/
+sentence_transformers_cache/
+faiss_indexes/
+
+# API Keys and Configurations
+.env
+config.ini
+secrets.yaml
+credentials.json
+
+# Logs and outputs
+logs/
+output/
+results/
+*.log
+wandb/
+
+# Data files
+data/*
+!data/.gitkeep
+datasets/
+raw_data/
+
+# Temporary files
+temp/
+.temp/
+tmp/
+.tmp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Documentation
+docs/_build/
+site/
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Package manager
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Local development settings
+local_settings.py
+settings_local.py
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Audio processing temporary files
+*.raw
+*.pcm
+
+# Large media files
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Node (if using any JavaScript tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Test files
+test_output/
+test_data/
+test_results/
+
+# Project specific directories
+transcripts/
+embeddings/
+audio_input/
+audio_output/
+responses/
